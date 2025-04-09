@@ -146,8 +146,17 @@ text-align: center;}
 .service-span {color:#007f73;}
 
 /* -----------testimonials----------- */
+.testimonials{background-color: #d5fdf9;
+padding-top:88px;
+}
 
-.testimonials .row {display: flex;}
+.testimonial-img {width: 40%;
+border-radius: 55%;}
+.testimonials-col{background-color: #ffffff;}
+.testimonials-h1{text-align: center;}
+.testimonials .row {display: flex;
+    gap:40px;
+padding-top:20px;}
 .testimonials .row .col-1 {flex-grow: 1;}
 
 /* --------contact------------- */
