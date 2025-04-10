@@ -46,6 +46,9 @@ height: auto;
     .multiple-text{color:#007f73;}
     p{font-size: 14.8px;
     color:#000000;}
+
+    .img-setting{position: relative;
+        top: 30px;}
     
     /* .social-media i{background-color:transparent;
         color:#007f73;
