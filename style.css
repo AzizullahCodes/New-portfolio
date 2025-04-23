@@ -207,7 +207,10 @@ font-weight: bold;}
     font-weight: normal;}
 .git{font-size: 20px;}
 .fa-github{font-size: 25px;}
-.main-container{overflow: hidden;}}
+.main-container{overflow: hidden;
+margin-left: 0;
+margin-right: 0;}
+.projects-section{padding-left: 20px;}}
 
       
     
