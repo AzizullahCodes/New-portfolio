@@ -146,7 +146,8 @@ height: auto;
       
         background-color: #f9f9f9;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 80px;
+        margin-bottom: 40px;
       }
       
       .projects-section h1 {
@@ -198,6 +199,16 @@ font-weight: bold;}
           width: 90%;
         }
       }
+
+      @media(max-width:600px){.projects-section h1 {
+        font-size: 30px;
+      }
+    .project-h2{font-size: 24px;
+    font-weight: normal;}
+.git{font-size: 20px;}
+.fa-github{font-size: 25px;}
+.main-container{overflow: hidden;}}
+
       
     
     /* ------services section-------- */
