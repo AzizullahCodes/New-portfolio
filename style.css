@@ -23,7 +23,7 @@ height: auto;
     .custom-brand {font-size: 40px;
     font-weight: bold;
     color:#ffffff;
-    margin-right: 480px;
+    margin-right: 370px;
     padding-left: 20px;
     }
     
@@ -31,7 +31,7 @@ height: auto;
     font-size: 24px;
     font-weight: 480;
     }
-    .custom-ul {gap:40px;}
+    .custom-ul {gap:30px;}
     /* -----------home section-------- */
     .home {background-color: white;
     padding-bottom: 20px;}
