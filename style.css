@@ -7,6 +7,8 @@
     
     /* --------header-section-------- */
 
+    
+
     img {max-width: 100%;
 height: auto;
 } 
@@ -16,6 +18,7 @@ height: auto;
 
 #img {animation: floatimage 3s ease-in-out infinite;}
     .custom-navbar {background-color: #007f73;
+        padding-bottom: 30px;
     
     
     }
@@ -39,7 +42,8 @@ left: 20px;}}
 gap:20px;
 top:30px;}
 .navbar-toggler{position: relative;
-left:40px}}
+left:40px}
+.custom-navbar{padding-bottom: 30px;}}
     /* -----------home section-------- */
     .home {background-color: white;
     padding-bottom: 20px;}
