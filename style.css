@@ -62,33 +62,23 @@ left:40px}
     .img-setting{position: relative;
         top: 30px;}
     
-    .social-media a {
-        display: flex;
-        
-        justify-content: center;
-        align-items: center;
-        width: 40px;
-        height: 40px;
-        border: 2px solid #007f73;
-        border-radius: 50%;
-        background-color: transparent;
-        margin: 5px; /* optional: spacing between icons */
-        text-decoration: none; /* remove underline */
-    }
-    
-    .social-media a:hover{background-color: #007f73;
-    }
+     /* =========info============ */
+     .info{display: flex;
+    gap:40px;
+padding-bottom: 10px;}
+.info i{font-size: 40px;
+color:#007f73;}
+.info .spn{font-size: 24px;
+background-color:#007f73;
+color:white;
+padding:0 10px;
+border-radius: 10px;}
+.social-media{margin-top: 40px;}
 
-    .social-media i:hover{color: #ffffff;}
-    .social-media i {
-        color: #007f73;
-        font-size: 30px;
-    }
-    
-    .social-media {display: flex;}
+
      img{width: 70%;
     border-radius: 50%;
-    }
+    } 
     .row {display: flex;}
     
     .btn {padding:8.8px 24.64px;
@@ -119,7 +109,11 @@ left:40px}
     }
     .about-img{position: relative;
     top: 30px;}
-.copyright{text-align: center;}}
+.copyright{text-align: center;}
+.info{flex-direction: column;
+gap:10px;}
+.info .spn{font-size: 20px;
+}}
     
 .home-btn {margin-top:10px;}
 /* ---------------section-home----------------- */
