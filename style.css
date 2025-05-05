@@ -32,6 +32,14 @@ height: auto;
     font-weight: 480;
     }
     .custom-ul {gap:30px;}
+@media(max-width:980px){.custom-ul{position: relative;
+left: 20px;}}
+    @media(max-width:650px){.custom-ul{position: relative;
+    left:40px;
+gap:20px;
+top:30px;}
+.navbar-toggler{position: relative;
+left:40px}}
     /* -----------home section-------- */
     .home {background-color: white;
     padding-bottom: 20px;}
