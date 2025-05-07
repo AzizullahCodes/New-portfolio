@@ -112,12 +112,14 @@ border-radius: 10px;}
     .about-img{position: relative;
     top: 30px;}
 .copyright{text-align: center;}
-.info{flex-direction: column;
-gap:10px;}
+.info{
+gap:5px;} 
 .info .spn{font-size: 18px;
 
     
 }
+.btn-position{position: relative;
+right: 23px;}
 }
     
 .home-btn {margin-top:10px;}
