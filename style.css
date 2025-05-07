@@ -113,8 +113,10 @@ border-radius: 10px;}
 .info{flex-direction: column;
 gap:10px;}
 .info .spn{font-size: 20px;
-    padding-right: 5px;
-}}
+    
+}
+.social-media{position: relative;
+right:10px;}}
     
 .home-btn {margin-top:10px;}
 /* ---------------section-home----------------- */
