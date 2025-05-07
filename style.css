@@ -113,6 +113,7 @@ border-radius: 10px;}
 .info{flex-direction: column;
 gap:10px;}
 .info .spn{font-size: 20px;
+    padding-right: 5px;
 }}
     
 .home-btn {margin-top:10px;}
