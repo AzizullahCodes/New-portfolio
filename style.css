@@ -87,6 +87,7 @@ border-radius: 10px;}
     font-size: 14.08px;
     color:#ffffff;
     border-radius: 30px;}
+    .btn-position{margin-left: 70px;}
     .btn:hover{background-color: transparent;
     border: 2px solid black;}
     
