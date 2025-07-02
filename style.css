@@ -130,7 +130,7 @@ right: 23px;}
 margin-bottom: 40px;}
     /* ----------about section---------------- */
     
-    /* .about{background-color:#f9f9f9;
+     .about{background-color:#f9f9f9;
     margin-top: 0px;
     padding:40px 30px;}
     .about .row {display: flex;
@@ -147,13 +147,15 @@ margin-bottom: 40px;}
     
     .about .row .col-1{flex-grow: 2;}
     
-    .about .row .col-2 {flex-grow: 1;} */
+    .about .row .col-2 {flex-grow: 1;} 
 
 /* section my main project */
 /* Main Project Section */
 /* Main Project Section */
 /* Full Width Section */
 /* Full Width Section */
+
+/* my main project note book of js */
 .main-project {
   width: 100%;
   background-color: #f5f5f5;
