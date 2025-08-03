@@ -31,7 +31,8 @@ height: auto;
     margin-right: 300px;
     padding-left: 10px;
     }
-    
+    .social-media{display: flex;
+    gap: 40px;}
     .link-color{color:#ffffff;
     font-size: 22px;
     font-weight: 480;
