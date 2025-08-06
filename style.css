@@ -32,6 +32,7 @@ height: auto;
     padding-left: 10px;
     }
     /* social media email and whatsap css */
+    .contact{margin-top: 20px;}
     .contact .sub-div{display: flex;
     gap : 20px;
     
@@ -54,6 +55,55 @@ color: #007f73;}
     gap: 20px;
   font-size: 40px;
  }
+ /* tool tips */
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.famcustom {
+  font-size: 35px;
+  color: #0a66c2; /* LinkedIn color as default */
+  transition: 0.3s;
+}
+
+.famcustom:hover {
+  color: #ff9800; /* Change icon color on hover */
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 120%; /* Position tooltip above icon */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.icon-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+ /* too tips end */
+ /* social-media */
+ .social-media{margin-top: -20px !important;}
  /* custom-button-group */
  .custom-button-group{display: flex;
 gap : 10px !important;
